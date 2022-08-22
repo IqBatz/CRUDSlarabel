@@ -38,6 +38,7 @@ class PostController extends Controller
     public function store(Request $request)
     {
       echo "store";
+      echo "Ya llegué tengo asistencia David Batz";
         //
     }
 
