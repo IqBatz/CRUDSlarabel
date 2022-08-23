@@ -12,6 +12,14 @@
 
     <form action="{{route('post.store')}}" method = "post">
         @csrf 
+        <label for="">Titulo</label>
+        <input type="text" name="title">
+        <label for="">URL Corto</label>
+        <input type="text" name="slug">
+        <label for="">Contenido</label>
+        <textarea name="content" id="" cols="30" rows="10"></textarea>
+        <label for="">Descripcion</label>
+        <textarea name="description" id="" cols="30" rows="10"></textarea>
     <button type = "submit">Enviar</button>
     </form>
 </body>
